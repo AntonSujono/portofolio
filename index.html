@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio [Nama Kamu]</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1 style="color: blue; text-align: center; font-size: small;"> Hallo</h1>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-green-600 text-white p-8 text-center">
+    <h1 class="text-4xl font-bold">[Nama Kamu]</h1>
+    <p class="text-xl mt-2">[Deskripsi singkat, contoh: "Web Developer Junior"]</p>
+  </header>
+
+  <section class="p-8">
+    <h2 class="text-2xl font-bold mb-4">Kontak</h2>
+    <p>Email: [email kamu]</p>
+    <p>LinkedIn / Instagram: <a href="#" class="text-green-600 underline">[Link kamu]</a></p>
+  </section>
+
+  <section class="p-8">
+    <h2 class="text-2xl font-bold mb-4">Keahlian</h2>
+    <ul class="list-disc list-inside">
+      <li>[Skill 1]</li>
+      <li>[Skill 2]</li>
+      <li>[Skill 3]</li>
+    </ul>
+  </section>
+
+  <section class="p-8">
+    <h2 class="text-2xl font-bold mb-4">Proyek / Portfolio</h2>
+
+    <div class="grid gap-6 md:grid-cols-2">
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">[Nama Proyek 1]</h3>
+        <p>Deskripsi singkat proyek ini.</p>
+        <a href="#" class="text-green-600 underline mt-2 inline-block">Lihat Proyek</a>
+      </div>
+
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">[Nama Proyek 2]</h3>
+        <p>Deskripsi singkat proyek ini.</p>
+        <a href="#" class="text-green-600 underline mt-2 inline-block">Lihat Proyek</a>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="text-center p-6 bg-gray-300 text-gray-700">
+    © 2025 [Nama Kamu]. Semua hak dilindungi.
+  </footer>
+
 </body>
 </html>
